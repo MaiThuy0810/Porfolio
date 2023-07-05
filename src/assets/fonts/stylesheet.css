@@ -1,0 +1,32 @@
+/* @font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans-Light.woff2") format("woff2"),
+    url("OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+} */
+@font-face {
+  font-family: "Ivy Regular";
+  src: url("./ivyjournal/IvyJournal-Regular.woff2") format("woff2"),
+    url("./ivyjournal/IvyJournal-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Ivy Light";
+  src: url("./ivyjournal/IvyJournal-Light.woff2") format("woff2"),
+    url("./ivyjournal/IvyJournal-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "The Scientist";
+  src: url("./scientist/TheScientistRegular.woff2") format("woff2"),
+    url("./scientist/TheScientistRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
