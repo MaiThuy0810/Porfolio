@@ -24,7 +24,7 @@ export const WrapCardSkill = styled.div`
 export const WrapCard = styled.div`
   padding-left: 0.7rem;
   padding-right: 0.7rem;
-  flex: 0 0 25%;
+  flex: 0 0 23%;
   font-size: 20px;
   /* padding: 0px 2px; */
   ${device.tablet} {

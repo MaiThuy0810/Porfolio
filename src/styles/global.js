@@ -31,11 +31,11 @@ export const Containerfluid = styled.div`
     margin-right: 10px;
   }
 
-  ${device.desktop} {
+  /* ${device.desktop} {
     max-width: 1440px;
     margin-left: 10px;
     margin-right: 10px;
-  }
+  } */
   ${device.mobile} {
     margin-left: 10px;
     margin-right: 10px;
@@ -269,7 +269,7 @@ export const WrapGetCon = styled.div`
       left: 110px;
     }
   }
-  :hover {
+  &:hover {
     img {
       position: absolute;
       left: 170px;

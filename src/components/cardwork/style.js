@@ -102,6 +102,7 @@ export const ViewDemo = styled.p`
 export const WorkDes = styled.p`
   padding-left: 230px;
   max-width: 800px;
+  text-align: start;
   color: ${theme.colors.border};
   ${device.tablet} {
     padding-left: 50px;
