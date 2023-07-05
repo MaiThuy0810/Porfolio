@@ -5,37 +5,40 @@ import { device } from "./media";
 export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  padding: 0 60px;
+  /* width: 100%; */
+  padding: 0 30px;
 
   ${device.tablet} {
     max-width: 960px;
-    padding: 0px 24px;
+    /* padding: 0px 24px; */
   }
 
   ${device.desktop} {
     max-width: 1440px;
-    /* padding: 0px 20px; */
+    /* padding: 0px 30px; */
   }
 `;
 export const Containerfluid = styled.div`
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  padding: 24px;
+  /* width: 100vw; */
   /* margin: 0 10px; */
 
   ${device.tablet} {
     max-width: 960px;
-    padding: 0px 24px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   ${device.desktop} {
     max-width: 1440px;
-    padding: 0px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   ${device.mobile} {
-    max-width: 1440px;
-    padding: 0px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 `;
 
@@ -215,6 +218,10 @@ export const Title = styled.div`
     ${device.mobile} {
       font-size: 20px;
     }
+
+    ${device.smallMobile} {
+      font-size: 20px;
+    }
   }
 `;
 export const GetContact = styled.p`
@@ -222,7 +229,7 @@ export const GetContact = styled.p`
     padding: 8px 30px;
   }
   ${device.mobile} {
-    padding: 5px 20px;
+    padding: 8px 30px;
   }
   text-transform: capitalize;
 
@@ -241,7 +248,7 @@ export const GetContact = styled.p`
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.5s;
-  :hover {
+  &:hover {
     --_p: 100%;
   }
 `;

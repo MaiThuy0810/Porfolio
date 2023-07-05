@@ -33,13 +33,10 @@ export const BackTop = styled.div`
       height: 50px;
     }
     ${device.tablet} {
-      width: 50px;
-      height: 50px;
+      width: 70px;
+      height: 70px;
     }
-    :hover {
-      background-color: ${theme.colors.greenCl};
-      transition: 0.5s;
-    }
+
     svg {
       position: absolute;
       top: 50%;
@@ -62,6 +59,11 @@ export const BackTop = styled.div`
       }
     }
   }
+
+  .iconBack:hover {
+    background-color: ${theme.colors.greenCl};
+    transition: 0.5s;
+  }
 `;
 export const WrapHome = styled.div``;
 export const WrapperContact = styled.div`
@@ -77,7 +79,7 @@ export const WrapperContact = styled.div`
     color: ${theme.colors.mainYellow};
   }
   bottom: 180px;
-  right: 50px;
+  right: 45px;
   ${device.mobile} {
     bottom: 100px;
 
@@ -86,7 +88,7 @@ export const WrapperContact = styled.div`
   ${device.tablet} {
     bottom: 100px;
 
-    right: 0px;
+    right: 5px;
   }
 `;
 export const ItemContact = styled.div`
@@ -124,9 +126,13 @@ export const WrapIcon = styled.div`
   background: #faf3e3;
   padding: 10px;
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: relative;
+  ${device.mobile} {
+    width: 30px;
+    height: 30px;
+  }
 `;
 export const Icon = styled.div`
   /* background: #faf3e3;

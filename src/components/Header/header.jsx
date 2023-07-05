@@ -90,35 +90,8 @@ function Header({
         className={activeHeader ? "active" : ""}
         id="mobile"
       >
-        {" "}
-        {/* <div style={{ backgroundColor: "black" }}>
-          {" "}
-          <h1
-            onMouseEnter={textEnter}
-            onMouseLeave={textLeave}
-            className="title"
-          >
-            Hello World
-          </h1>{" "}
-          <motion.div
-            style={{
-              backgroundColor: "#111",
-              height: "32px",
-              width: "32px",
-              // border-radius: "50%",
-              position: "fixed",
-              top: 0,
-              left: 0,
-              PointerEvent: "none",
-            }}
-            className="cursor"
-            variants={variants}
-            animate={cursorVariant}
-          />
-        </div> */}
         <Containerfluid>
           <ContentHeader>
-            {/* <Logo> */}
             <Logo
               onClick={goToTop}
               onMouseEnter={textEnter}
@@ -127,7 +100,6 @@ function Header({
               {" "}
               thuy maii
             </Logo>
-            {/* </Logo> */}
 
             <MenuWrapper>
               {listHeader.map((item, index) => (
@@ -146,7 +118,7 @@ function Header({
             </MenuWrapper>
           </ContentHeader>
         </Containerfluid>
-      </WrapperHeader>{" "}
+      </WrapperHeader>
     </>
   );
 }

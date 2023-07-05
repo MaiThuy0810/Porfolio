@@ -1,17 +1,25 @@
 import React, { useEffect, useRef, useState } from "react";
 import Header from "../../components/Header/header";
-// import Contact from "../HomePage/Component/Contact";
-// import Banner from "./Component/Banner/banner";
-// import FrontEnd from "./Component/Front/frontend";
-// import Skill from "./Component/Skills/skills";
-// import Work from "./Component/Work/work";
-import { WrapHome } from "./style";
+import Contact from "../HomePage/Component/Contact";
+import Banner from "./Component/Banner/banner";
+import FrontEnd from "./Component/Front/frontend";
+import Skill from "./Component/Skills/skills";
+import Work from "./Component/Work/work";
+import {
+  BackTop,
+  Icon,
+  ItemContact,
+  WrapHome,
+  WrapIcon,
+  WrapperContact,
+} from "./style";
 
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PhoneEnabledIcon from "@mui/icons-material/PhoneEnabled";
 import AOS from "aos";
-// import Footer from "../../components/Footer";
+import Footer from "../../components/Footer";
 function HomePage() {
   // const scrollCounter = document.querySelector(".js-scroll-counter");
   // window.addEventListener("scroll", function () {
@@ -140,12 +148,12 @@ function HomePage() {
         headerSection={headerSection}
         bannerSection={bannerSection}
       />
-      {/* <Banner
+      <Banner
         bannerSection={bannerSection}
         skillSection={skillSection}
         scrollToSection={scrollToSection}
       />
-      <FrontEnd aboutSection={aboutSection} />{" "}
+      <FrontEnd aboutSection={aboutSection} />
       <Skill skillSection={skillSection} />
       <Work workSection={workSection} />
       <Contact contactSection={contactSection} />
@@ -167,7 +175,7 @@ function HomePage() {
             <ExpandLessIcon />
           </div>
         </BackTop>
-      )} */}
+      )}
     </WrapHome>
   );
 }
