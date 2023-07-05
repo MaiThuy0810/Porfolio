@@ -192,6 +192,7 @@ export const Title = styled.div`
     color: ${theme.colors.mainYellow};
     letter-spacing: 0.5px;
     line-height: 150%;
+    font-family: Ivy Regular;
 
     text-transform: uppercase;
     font-weight: 900;
