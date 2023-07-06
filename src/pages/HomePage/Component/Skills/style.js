@@ -27,9 +27,17 @@ export const WrapCard = styled.div`
   flex: 0 0 23%;
   font-size: 20px;
   /* padding: 0px 2px; */
+  ${device.desktop} {
+    flex: 0 0 22% !important;
+  }
   ${device.tablet} {
+    flex: 0 0 22% !important;
   }
   ${device.mobile} {
+    flex: 0 0 21%;
+  }
+  ${device.smallMobile} {
+    flex: 0 0 20%;
   }
 
   .hover {
