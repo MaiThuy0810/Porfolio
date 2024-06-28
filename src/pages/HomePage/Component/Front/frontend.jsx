@@ -34,7 +34,7 @@ function FrontEnd({ aboutSection }) {
               I look forward to experimenting with work and learning in a real
               professional working environment so that I can improve my
               experience and knowledge. It will become a platform on my way to
-              becoming a professional developer in the next 4 years.
+              becoming a professional developer in the future.
               <span>front-end developer</span>
             </AboutDes>
           </WrapTextAbout>
