@@ -14,16 +14,16 @@ function Footer({ contactSection }) {
       name: "LinkIn",
       href: "https://www.linkedin.com/in/mai-thu%E1%BB%B7-209934221/",
     },
-    {
-      id: 2,
-      name: "Facebook",
-      href: "https://www.facebook.com/Thuy.Maii.Bwi081099/",
-    },
-    {
-      id: 3,
-      name: "Instagram",
-      href: "https://www.instagram.com/_bwi_99/",
-    },
+    // {
+    //   id: 2,
+    //   name: "Facebook",
+    //   href: "https://www.facebook.com/Thuy.Maii.Bwi081099/",
+    // },
+    // {
+    //   id: 3,
+    //   name: "Instagram",
+    //   href: "https://www.instagram.com/_bwi_99/",
+    // },
   ];
   return (
     <WrapFooter ref={contactSection}>
